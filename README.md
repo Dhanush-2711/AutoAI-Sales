@@ -4,7 +4,6 @@ Production-style backend + modern React frontend for the Sales Digital Workers p
 
 ## What changed in this package
 
-- Removed real `.env` from the repository package and replaced it with a safe `.env.example`.
 - Disabled FAISS by default and made FAISS import lazy to avoid local/deployment hangs on unsupported systems.
 - Added session-event replay: anonymous website events are now attached to the lead and rescored when `CREATE_LEAD` is submitted.
 - Added lead timeline, score-breakdown, manual response registration, and manual reassignment APIs.
